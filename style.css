@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/* css shadow*/
+.shadow{
+   background-color: white; 
+   width:200px;
+   height: 200px;
+   margin: 50px auto;
+   text-align: center;
+   font-size: 40px;
+   text-shadow: 5px 5px 10px rgba(0,0,0,.5);
+   box-shadow: 0 0 navy,
+                0 0 blue,
+                0 0 blueviolet,
+                0 0 green,
+                0 0 red,
+                0 0 orange;
+transition: all 0.3s linear;
+}
+
+.shadow:hover {
+background-color: yellow;
+box-shadow: -200px 0 navy,
+            -400px 0 blue,
+            -600px 0 blueviolet,
+            200px 0 green,
+            400px 0 red,
+            600px 0 orange;
+}
+
+.shadow2{
+    background-color: black;
+    color: white; 
+    width:200px;
+    height: 200px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    box-shadow:-200px 0 blue,
+                -400px 0 blueviolet,
+                -600px 0 skyblue,
+                 200px 0 green,
+                 400px 0 yellow,
+                 600px 0 orange; 
+                 
+    transition: all 0.5s linear;         
+}
+
+.shadow2:hover{
+    background-color: white;
+    box-shadow: -200px 0 green,
+                -400px 0 yellow,
+                -600px 0 orange,
+                 200px 0 blue,
+                 400px 0 blueviolet,
+                600px 0 skyblue; 
+}
+
